@@ -1,0 +1,57 @@
+/*
+.is-primary{
+    background-color: green !important;
+}
+*/
+
+.navbar {
+    height: 60px;
+}
+
+.hl-main-outer{
+    margin: 3% 0 0 0;
+}
+
+.hl-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 10px 30px 30px 30px;
+    font-size: 18px;
+}
+
+.hl-main-title{
+    font-size: 30px;
+}
+
+.hl-main-belowtitle-spacing{
+    display: flex;
+    flex-grow: 0.5;
+}
+
+.hl-main-spacing{
+    display: flex;
+    flex-grow: 1;
+}
+
+.hl-main-buttonbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.hl-main-pricing {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    margin-right: 30px;
+  }
+  
+.hl-image-container{
+    margin: 0 15% 0 15%;
+}
+
+.hl-text-desc{
+    padding: 40px;
+    font-size: 20px;
+}
