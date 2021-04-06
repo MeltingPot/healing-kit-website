@@ -19,11 +19,6 @@
     font-size: 30px;
 }
 
-.hl-main-belowtitle-spacing{
-    display: flex;
-    flex-grow: 0.5;
-}
-
 .hl-main-spacing{
     display: flex;
     flex-grow: 1;
@@ -83,12 +78,15 @@
 /* Tablets and Desktop */
 @media (min-width:769px)  {
     .hl-main-outer{
-        padding: 10px 7% 30px 7%;
+        padding: 10px 5% 30px 7%;
     }
     .hl-main-content{
-        padding: 40px 0 0 0;
+        padding: 40px 0 0 40px;
     }
     .hl-main-image{
+    }
+    .hl-main-buttonbox{
+        margin: 0 20px 20px 0;
     }
     .hl-main-pricing {
         margin-right: 30px;
