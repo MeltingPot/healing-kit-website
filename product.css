@@ -1,3 +1,7 @@
+.hl-main-image {
+  padding: 0;
+}
+
 .hl-main-content {
   display: flex;
   flex-direction: column;
