@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.typeform-widget {
+  flex: 1 1 600px;
+  width: 100%;
+}
