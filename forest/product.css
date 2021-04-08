@@ -70,6 +70,7 @@
 @media (min-width: 769px) {
   .hl-main-outer {
     padding: 10px 5% 30px 7%;
+    margin-top: 60px;
   }
   .hl-main-content {
     padding: 40px 0 0 40px;
