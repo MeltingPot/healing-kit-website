@@ -1,3 +1,8 @@
+.is-primary {
+  /* Can change everything's color except the message */
+  background-color: #00d1b2 !important;
+}
+
 .navbar {
   display: flex;
   height: 60px;
