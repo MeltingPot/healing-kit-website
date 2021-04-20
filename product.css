@@ -60,7 +60,7 @@ body {
   background-color: #a19c4c15;
 }
 
-.title {
+.hl-image-container .title {
   margin: 1rem !important;
 }
 
@@ -89,7 +89,7 @@ body {
     padding: 10px;
   }
 
-  .image {
+  .hl-image-container .image {
     padding: 40px 0 40px 0;
   }
 }
@@ -116,7 +116,7 @@ body {
     padding: 10px;
   }
 
-  .image {
+  .hl-image-container .image {
     width: 600px !important;
     padding: 40px 0 40px 0;
   }
