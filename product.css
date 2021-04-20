@@ -57,7 +57,9 @@ body {
 }
 
 .box {
-  background-color: #a19c4c15;
+  background-color: #a19c4c10;
+  width: 96%;
+  max-width: 560px;
 }
 
 .hl-image-container .title {
@@ -89,6 +91,9 @@ body {
   }
   .hl-main-pricing {
     margin-right: 30px;
+  }
+  .box {
+    padding: 1rem !important;
   }
 
   .box p {
