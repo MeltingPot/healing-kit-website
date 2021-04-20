@@ -200,11 +200,14 @@
             <iframe id="iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSeO_cgHnsrmYiLGAmsy1irfT--cYXr_88aAuyz_JD1a-9OyQw/viewform?embedded=true"
             width="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
-        <button class="modal-close is-large" aria-label="close"></button>
+        <button class="modal-close is-large" onclick="closeSurvey()" aria-label="close"></button>
     </div>
     <script>
         function openSurvey(){
             document.getElementById("survey").classList.add("is-active")
+        }
+        function closeSurvey(){
+            document.getElementById("survey").classList.remove("is-active")
         }
     </script>
 
