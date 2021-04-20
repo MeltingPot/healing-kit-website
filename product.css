@@ -52,6 +52,10 @@ body {
   margin: 1rem 0 0.5rem 0;
 }
 
+.hl-image-container h4.title {
+  margin: 40px 0 0 0;
+}
+
 .hl-author {
   margin-right: 1rem !important;
   margin-top: 10px !important;
@@ -125,7 +129,7 @@ body {
     margin-top: 60px;
   }
   .hl-main-content {
-    padding: 40px 0 0 40px;
+    padding: 20px 0 0 40px;
   }
   .hl-main-image {
   }
