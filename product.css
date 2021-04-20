@@ -1,5 +1,7 @@
 body {
   overflow-x: hidden;
+  font-family: "SF Pro Text", "Helvetica Neue", "Segoe UI", Arial, "NotoSansKR",
+    sans-serif;
 }
 
 .primary {
@@ -45,14 +47,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  margin-top: 30px;
+  margin: 30px 15px 0 15px;
 }
 
 .hl-image-container p {
-  font-size: 15px;
   margin-bottom: 0 !important;
-  line-height: 1.8;
   padding: 10px;
 }
 
@@ -81,16 +80,19 @@ body {
     margin-right: 30px;
   }
 
-  .hl-image-container p {
-    padding: 30px;
-  }
-
   .box .hl-text-desc {
     padding: 10px;
   }
 
   .hl-image-container .image {
-    padding: 40px 0 40px 0;
+    padding: 20px 0 20px 0;
+  }
+  .hl-image-container .title {
+    font-size: 18px !important;
+  }
+  .hl-image-container p {
+    font-size: 10px;
+    line-height: 1.8;
   }
 }
 
@@ -119,5 +121,9 @@ body {
   .hl-image-container .image {
     width: 600px !important;
     padding: 40px 0 40px 0;
+  }
+  .hl-image-container p {
+    font-size: 15px;
+    line-height: 1.8;
   }
 }
