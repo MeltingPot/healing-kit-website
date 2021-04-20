@@ -4,15 +4,6 @@ body {
     sans-serif;
 }
 
-.primary {
-  background-color: #181814 !important;
-  color: #ebebeb !important;
-}
-.navbar-item {
-  color: #ebebeb;
-  margin-left: 10px;
-}
-
 .hl-main-image {
   padding: 0;
 }
