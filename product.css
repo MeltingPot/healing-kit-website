@@ -63,6 +63,10 @@ body {
   margin: 1rem !important;
 }
 
+.hl-author {
+  margin-right: 1rem !important;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .hl-main-outer {
@@ -80,8 +84,8 @@ body {
     margin-right: 30px;
   }
 
-  .box .hl-text-desc {
-    padding: 10px;
+  .box p {
+    padding: 0 10px 0 10px;
   }
 
   .hl-image-container .image {
@@ -115,7 +119,7 @@ body {
   }
 
   .box p {
-    padding: 10px;
+    padding: 0 10px 0 10px;
   }
 
   .hl-image-container .image {
