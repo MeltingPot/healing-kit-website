@@ -62,6 +62,16 @@ body {
   margin: 30px 0 0 0 !important;
 }
 
+#iframe {
+  height: 90vh;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.modal-content {
+  background-color: white;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .hl-main-outer {

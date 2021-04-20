@@ -50,11 +50,9 @@
                     <div class="hl-main-pricing">
                         30,000원
                     </div>
-                    <a href="/survey">
-                        <button class="button hl-button is-large primary">
-                            사전예약
-                        </button>
-                    </a>
+                    <button onclick="openSurvey()" class="button hl-button is-large primary">
+                        사전예약
+                    </button>
                 </div>
                 <div class="hl-main-spacing"></div>
             </div>
@@ -188,8 +186,6 @@
                 <br>「숲에서 1년」, 토르비에룬 에켈룬 저, 장혜경 역, 심플라이프, 2018.08.20
             </p>
         </div>
-
-        
     </div>
     <footer class="footer">
         <p>
@@ -198,6 +194,19 @@
         </p>
     </footer>
 
+    <div id="survey" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <iframe id="iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSeO_cgHnsrmYiLGAmsy1irfT--cYXr_88aAuyz_JD1a-9OyQw/viewform?embedded=true"
+            width="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <script>
+        function openSurvey(){
+            document.getElementById("survey").classList.add("is-active")
+        }
+    </script>
 
 </body>
 
