@@ -62,10 +62,13 @@ body {
   margin: 30px 0 0 0 !important;
 }
 
+#iframe-container {
+  height: 100vh; /* bigger than max-height, thus forced to max-height*/
+}
+
 #iframe {
-  height: 90vh;
   width: 100%;
-  border-radius: 5px;
+  height: 100%;
 }
 
 .modal-content {
