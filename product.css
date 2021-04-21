@@ -53,7 +53,7 @@ body {
 }
 
 .hl-image-container h4.title {
-  margin: 40px 0 0 0;
+  margin: 30px 0 10px 0;
 }
 
 .hl-author {
@@ -123,6 +123,12 @@ body {
     font-size: 11px;
     line-height: 2;
   }
+
+  .hl-image-container h3.title {
+    font-size: 24px !important;
+    margin-bottom: 10px !important;
+    margin-top: 50px !important;
+  }
 }
 
 /* Tablets and Desktop */
@@ -159,10 +165,15 @@ body {
 
   .hl-image-container .image {
     width: 600px !important;
-    padding: 40px 0 40px 0;
+    padding: 20px 0 40px 0;
   }
   .hl-image-container p {
     font-size: 15px;
     line-height: 1.8;
+  }
+
+  .hl-image-container h3.title {
+    margin-bottom: 10px !important;
+    margin-top: 50px !important;
   }
 }
