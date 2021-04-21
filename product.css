@@ -98,8 +98,11 @@ body {
     font-size: 12px;
   }
   .hl-main-pricing {
-    margin-right: 30px;
+    margin-right: 25px;
     font-size: 14px;
+  }
+  .hl-button {
+    font-size: 18px !important;
   }
   .box {
     padding: 1rem !important;
