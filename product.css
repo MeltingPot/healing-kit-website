@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px 15px 0 15px;
+  margin: 30px 15px 60px 15px;
 }
 
 .hl-image-container p {
